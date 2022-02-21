@@ -1,0 +1,24 @@
+
+Version History
+
+*_UNO:
+Initially created Version which works with Arduino uno and nano. Relies on the internal analog comparator.
+"hand coded" PWM for LEDs. The Brightness is controlled by the adc value.
+
+*_MEGA:
+Used for porting the UNO version to the Arduino MEGA (ATmega2560). Not working. Code was heavily changed and modify for debugging
+
+*_MEGA_V2:
+Initial working Version for ATmega. Uses external interrupt #4 connected to the now used "hardware" comparator to detect rising edge. ADC not implemented yet.
+
+*_MEGA_V3:
+Working. Capture event interrupt of timer/counter 4 used to detect rising edge on comparator output. The signal is then scanned for ca. 2 ms by the adc and the highest measured value is printed on the serial monitor. 
+Problem: In some occasions the ADC returns 0 although a signal is present on the scope (probably bad timing).
+
+*_MEGA_V4:
+In this Version the length of the reflected pulse is measured. During experimenting with the ADC it was discovered that the size of the object also has an impact on the pulse length.
+The pulse length varies with object size due to the damping ratio. Bigger object -> "stronger" reflection -> "stronger" response -> longer oscillation.
+The pulse length will be used to "support" the measured height.
+
+*_MEGA_V5:
+Focus on Interrupts. !!**Work in Progress**!!

@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "/Users/Daniel/Documents/PlatformIO/Projects/MPS_Projekt_Sensor"
+		},
+		{
+			"path": "/Users/Daniel/Documents/PlatformIO/Projects/Sensor testing"
+		},
+		{
+			"path": "/Users/Daniel/Documents/PlatformIO/Projects/Ultrasonic rangefinder"
+		},
+		{
+			"path": "/Users/Daniel/Documents/PlatformIO/Projects/Ultrasonic Sensor 4.0"
+		},
+		{
+			"name": "ADC testing",
+			"path": "/Users/Daniel/Documents/PlatformIO/Projects/ADC testing"
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.osx": {
+			"PATH": "/Users/Daniel/.platformio/penv/bin:/Users/Daniel/.platformio/penv:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin://anaconda/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/usr/local/CrossPack-AVR/bin",
+			"PLATFORMIO_CALLER": "vscode"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+KNOWN ISSUES
+
+If the maxloop(1) value is to small the programm gets stuck if fast changes, like throwing an (fast) object through the field of view of the sensor,
+appear. The programm will then contiously send "Range exceeded" and the measurement start procedure seems to get skipped, since the transmitter is no longer audible 
+(it is during normal operation, very quiet though).
+Disconnection the transmitter will lead to the state of "Range exceeded" but reconnecting does not lead to  contiuation of proper operation.
+
+At higher values for maxloops, where the issue does not appear, another issue arises. Cutting the connection for the transmitter wont lead to the state of "Range exceeded". 
+The programm seems to loop without output. But reconnecting leads to proper operation.

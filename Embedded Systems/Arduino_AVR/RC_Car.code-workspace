@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "/Users/Daniel/Documents/PlatformIO/Projects/lul"
+		},
+		{
+			"path": "/Users/Daniel/Documents/PlatformIO/Projects/SPI Transmitter"
+		},
+		{
+			"path": "/Users/Daniel/Documents/PlatformIO/Projects/nRF24_Transmitter"
+		},
+		{
+			"path": "/Users/Daniel/Documents/PlatformIO/Projects/Serial Communication"
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.osx": {
+			"PATH": "/Users/Daniel/.platformio/penv/bin:/Users/Daniel/.platformio/penv:/Library/Frameworks/Python.framework/Versions/3.7/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/usr/local/CrossPack-AVR/bin",
+			"PLATFORMIO_CALLER": "vscode"
+		}
+	}
+}
