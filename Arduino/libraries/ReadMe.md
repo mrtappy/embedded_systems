@@ -1,6 +1,6 @@
-## Copy of the libaries from the homeautomation framework written by Prof. Robert Patzke
+# Copy of the libaries from the homeautomation framework written by Prof. Robert Patzke
 
-# Source-code libraries
+## Source-code libraries
 The libraries presented here are oriented at the structure as it is used with the [Arduino](https://www.arduino.cc/) environment. 
 But at present there are no files like kewords.txt and readme.txt as with Arduino. 
 Because we do not use the Arduino IDE for development but Eclipse/Sloeber. 
@@ -11,7 +11,7 @@ Some library folders (e.g. SocManNet) contain more than one module
 This works perfectly with the IDE and gives us a better understandable organisation 
 structure than that with an extra folder for each module.
 
-# Examples
+## Examples
 In the library folders there are subfolders named examplesArduino with typical Arduino sketches 
 (.ino files with setup() and loop()) showing the usage of the library modules).
 
