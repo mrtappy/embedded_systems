@@ -1,3 +1,5 @@
+## Copy of the libaries from the homeautomation framework written by Prof. Robert Patzke
+
 # Source-code libraries
 The libraries presented here are oriented at the structure as it is used with the [Arduino](https://www.arduino.cc/) environment. 
 But at present there are no files like kewords.txt and readme.txt as with Arduino. 
